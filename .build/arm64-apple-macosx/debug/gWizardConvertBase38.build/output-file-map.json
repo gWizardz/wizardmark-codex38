@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/master.swiftdeps"
+  },
+  "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Sources/gWizardConvertBase38/Charset.swift": {
+    "dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.d",
+    "object": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.swift.o",
+    "swiftmodule": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset~partial.swiftmodule",
+    "swift-dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.swiftdeps"
+  }
+}

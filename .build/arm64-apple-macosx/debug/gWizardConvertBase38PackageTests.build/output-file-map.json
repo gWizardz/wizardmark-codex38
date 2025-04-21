@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/master.swiftdeps"
+  },
+  "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift": {
+    "dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.d",
+    "object": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module gWizardConvertBase38PackageTests {
+    header "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/gWizardConvertBase38PackageTests-Swift.h"
+    requires objc
+}

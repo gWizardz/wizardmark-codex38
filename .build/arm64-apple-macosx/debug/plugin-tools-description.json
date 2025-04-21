@@ -1,0 +1,597 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.xctest/Contents/MacOS/gWizardConvertBase38PackageTests",
+      "packagePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38",
+      "productName" : "gWizardConvertBase38PackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.gWizardConvertBase38-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/sources",
+      "importPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Sources/gWizardConvertBase38/Charset.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "gWizardConvertBase38",
+      "moduleOutputPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38.swiftmodule",
+      "objects" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/gWizardConvertBase38-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Sources/gWizardConvertBase38/Charset.swift"
+      ],
+      "tempsPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.gWizardConvertBase38PackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/sources",
+      "importPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38Tests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "gWizardConvertBase38PackageTests",
+      "moduleOutputPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38PackageTests.swiftmodule",
+      "objects" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/gWizardConvertBase38PackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38PackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.gWizardConvertBase38Tests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/sources",
+      "importPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Tests/gWizardConvertBase38Tests/CharsetTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "gWizardConvertBase38Tests",
+      "moduleOutputPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38Tests.swiftmodule",
+      "objects" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/CharsetTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/CharsetTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules/gWizardConvertBase38Tests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Tests/gWizardConvertBase38Tests/CharsetTests.swift"
+      ],
+      "tempsPath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "gWizardConvertBase38" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "gWizardConvertBase38",
+      "-incremental",
+      "-c",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Sources/gWizardConvertBase38/Charset.swift",
+      "-I",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/gWizardConvertBase38-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "gWizardConvertBase38PackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "gWizardConvertBase38PackageTests",
+      "-incremental",
+      "-c",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift",
+      "-I",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/gWizardConvertBase38PackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "gWizardConvertBase38Tests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "gWizardConvertBase38Tests",
+      "-incremental",
+      "-c",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Tests/gWizardConvertBase38Tests/CharsetTests.swift",
+      "-I",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "gWizardConvertBase38" : [
+
+    ],
+    "gWizardConvertBase38PackageTests" : [
+      "gWizardConvertBase38Tests",
+      "gWizardConvertBase38"
+    ],
+    "gWizardConvertBase38Tests" : [
+      "gWizardConvertBase38"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Sources/gWizardConvertBase38/Charset.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/sources"
+    },
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/sources"
+    },
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38.build/Charset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/CharsetTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38PackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/Tests/gWizardConvertBase38Tests/CharsetTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/gWizardConvertBase38Tests.build/sources"
+    },
+    "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/hmfr/Documents/GitHub/gWizardConvertBase38/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

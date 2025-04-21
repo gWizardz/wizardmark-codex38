@@ -1,2 +1,10 @@
-# gWizardConvertBase38
-Base^conversion^universal^apple^app
+# gWizardConvertBase38 50420-1919
+
+Swift package for symbolic Base^38, Base62, and Base64 character sets. Used in universal apps and encoded QR systems.
+
+## Includes
+- CharsetBase38
+- CharsetBase62
+- CharsetBase64
+
+Built for the gWizard project.
