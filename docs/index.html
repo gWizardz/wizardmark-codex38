@@ -1,25 +1,15 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>gWizard Base^38 Converter</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+<html>
+<head><title>Base^38 WebAssembly Playground</title></head>
 <body>
-  <div class="container">
-    <h1>🧙‍♂️ gWizard Base^38 Converter</h1>
-    <label>Enter Base-10 Number:</label>
-    <input type="number" id="decimalInput" placeholder="e.g. 12345" />
-    <button onclick="encodeBase38()">Encode to Base^38</button>
-
-    <label>Enter Base^38 String:</label>
-    <input type="text" id="base38Input" placeholder="e.g. 3d2x" />
-    <button onclick="decodeBase38()">Decode to Base-10</button>
-
-    <div class="result" id="resultBox"></div>
-  </div>
-
-  <script src="main.js"></script>
+  <h1>Base^38 WebAssembly Playground 🧙‍♂️</h1>
+  <pre id="output">Loading...</pre>
+  <script type="module">
+    import init from './ficfacfoe-wasm.js';
+    init().then(mod => {
+      document.getElementById("output").textContent = mod.main();
+    });
+  </script>
 </body>
 </html>
