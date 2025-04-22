@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Base^38 WebAssembly Playground</title></head>
+<body>
+  <h1>Base^38 WebAssembly Playground 🧙‍♂️</h1>
+  <pre id="output">Loading...</pre>
+  <script type="module">
+    import init from './ficfacfoe-wasm.js';
+    init().then(mod => {
+      document.getElementById("output").textContent = mod.main();
+    });
+  </script>
+</body>
+</html>
